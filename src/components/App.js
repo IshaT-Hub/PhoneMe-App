@@ -14,7 +14,7 @@ function App() {
     setContacts([...contacts, {id: uuid(), ...contact }]);
   };
 
-  console.log("bhu");
+
 
   const LOCAL_STORAGE_KEY = "contacts";
   const [contacts, setContacts] = useState(
