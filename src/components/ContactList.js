@@ -3,6 +3,7 @@ import ContactCard from "./ContactCard";
 
 const ContactList = (props) => {
     console.log(props);
+    console.log(props);
 
     const deleteContactHandler = (id) =>{
         props.getContactID(id);
